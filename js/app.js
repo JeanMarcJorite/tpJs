@@ -1,6 +1,7 @@
 import CharacterAll from "./views/CharacterAll.js";
 import Utils from "./services/utils.js";
 import Home from "./views/Home.js";
+import Error404 from "./views/Error404.js";
 
 const routes = {
     '/'                     : Home
