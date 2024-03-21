@@ -1,0 +1,124 @@
+{
+    "personnages": [
+      {
+        "nom": "Son Goku",
+        "race": "Saiyan",
+        "alignement": "Bon",
+        "puissance": 10000,
+        "techniques": ["Kamehameha", "Kaio-Ken", "Genki Dama"],
+        "evolutions": [
+          {
+            "nom": "Super Saiyan",
+            "puissance": 50000,
+            "techniques": ["Super Kamehameha", "Instant Transmission"]
+          },
+          {
+            "nom": "Super Saiyan 2",
+            "puissance": 100000,
+            "techniques": ["Super Dragon Fist", "Solar Kamehameha"]
+          },
+          {
+            "nom": "Super Saiyan 3",
+            "puissance": 400000,
+            "techniques": ["Dragon Fist", "Super Dragon Flash"]
+          }
+        ]
+      },
+      {
+        "nom": "Vegeta",
+        "race": "Saiyan",
+        "alignement": "Neutre",
+        "puissance": 9000,
+        "techniques": ["Galick Gun", "Final Flash", "Big Bang Attack"],
+        "evolutions": [
+          {
+            "nom": "Super Saiyan",
+            "puissance": 45000,
+            "techniques": ["Final Flash", "Big Bang Attack"]
+          },
+          {
+            "nom": "Super Saiyan 2",
+            "puissance": 95000,
+            "techniques": ["Final Shine Attack", "Gamma Burst Flash"]
+          }
+        ]
+      },
+      {
+        "nom": "Piccolo",
+        "race": "Namek",
+        "alignement": "Bon",
+        "puissance": 8000,
+        "techniques": ["Makankosappo", "Special Beam Cannon", "Hellzone Grenade"],
+        "evolutions": [
+          {
+            "nom": "Fuse with Nail",
+            "puissance": 20000,
+            "techniques": ["Special Beam Cannon", "Light Grenade"]
+          },
+          {
+            "nom": "Fuse with Kami",
+            "puissance": 50000,
+            "techniques": ["Hellzone Grenade", "Special Beam Cannon Barrage"]
+          }
+        ]
+      },
+      {
+        "nom": "Gohan",
+        "race": "Saiyan/Human",
+        "alignement": "Bon",
+        "puissance": 7000,
+        "techniques": ["Masenko", "Kamehameha", "Father-Son Kamehameha"],
+        "evolutions": [
+          {
+            "nom": "Super Saiyan 2",
+            "puissance": 80000,
+            "techniques": ["Father-Son Kamehameha", "Super Masenko"]
+          },
+          {
+            "nom": "Mystic Gohan",
+            "puissance": 200000,
+            "techniques": ["Super Kamehameha", "Burst Rush"]
+          }
+        ]
+      },
+      {
+        "nom": "Trunks",
+        "race": "Saiyan/Human",
+        "alignement": "Bon",
+        "puissance": 7500,
+        "techniques": ["Galick Gun", "Finish Buster", "Sword of Hope"],
+        "evolutions": [
+          {
+            "nom": "Super Saiyan",
+            "puissance": 40000,
+            "techniques": ["Burning Attack", "Heat Dome Attack"]
+          },
+          {
+            "nom": "Super Saiyan Rage",
+            "puissance": 150000,
+            "techniques": ["Final Hope Slash", "Final Flash"]
+          }
+        ]
+      },
+      {
+        "nom": "Goten",
+        "race": "Saiyan/Human",
+        "alignement": "Bon",
+        "puissance": 7000,
+        "techniques": ["Kamehameha", "Galick Gun", "Super Kamehameha"],
+        "evolutions": [
+          {
+            "nom": "Super Saiyan",
+            "puissance": 40000,
+            "techniques": ["Kamehameha", "Galick Gun"]
+          },
+          {
+            "nom": "Super Saiyan 3",
+            "puissance": 150000,
+            "techniques": ["Super Kamehameha", "Super Galick Gun"]
+          }
+        ]
+      }
+    ]
+  }
+  
