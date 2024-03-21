@@ -2,10 +2,12 @@ import CharacterAll from "./views/CharacterAll.js";
 import Utils from "./services/utils.js";
 import Home from "./views/Home.js";
 import Error404 from "./views/Error404.js";
+import CharacterShow from "./views/CharacterShow.js";
 
 const routes = {
     '/'                     : Home
     , '/characters'         : CharacterAll
+    , '/character/:id'      : CharacterShow
 };
 
 const router = async () => {
