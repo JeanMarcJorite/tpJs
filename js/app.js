@@ -3,11 +3,13 @@ import Utils from "./services/utils.js";
 import Home from "./views/Home.js";
 import Error404 from "./views/Error404.js";
 import CharacterShow from "./views/CharacterShow.js";
+import FavoritesShow from "./views/favoritesShow.js";
 
 const routes = {
     '/'                     : Home
     , '/characters'         : CharacterAll
     , '/character/:id'      : CharacterShow
+    , '/favorites'           : FavoritesShow
 };
 
 const router = async () => {

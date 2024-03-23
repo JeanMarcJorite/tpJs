@@ -3,7 +3,7 @@ import { ENDPOINT } from "../config.js";
 export default class CharacterProvider {
     static fetchCharacters = async () => {
         try {
-            const rep = await fetch('http://localhost:3001/personnages');
+            const rep = await fetch(ENDPOINT);
             if (!rep.ok) throw new Error('Erreur fetchCharacters');
             const data = await rep.text();
             try {
