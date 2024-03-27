@@ -12,8 +12,7 @@ export default class FavoritesShow {
         let view = /*html*/`
             <section class="section">
                 <h1>Favorites</h1>
-
-                </section>
+            </section>
             <ul>
             ${favorites.map(character => {
                 window[`removeFavorite${character.id}`] = async () => {
@@ -26,13 +25,8 @@ export default class FavoritesShow {
                  <button type="button" onclick="removeFavorite${character.id}()">Supprimer des favoris</section> 
                  </section>
                 </li>
-<<<<<<< HEAD
-                `
-                )}
-=======
                 `;
             })}
->>>>>>> 2c490446389010768c0708dec7cc01d69350f904
         `;
         return view;
     }
