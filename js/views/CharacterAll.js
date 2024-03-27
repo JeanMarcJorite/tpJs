@@ -9,7 +9,6 @@ export default class CharacterAll {
                 <h1>Characters</h1>
                 <ul>
                     ${characters.map(character =>/*html*/`
-                        
                         <li>
                             <section class="container">
                             <a href="#/character/${character.id}">
