@@ -195,7 +195,132 @@
         }
       ],
       "id": "a411"
-    }
+    },
+    {
+      "nom": "Krillin",
+      "race": "Human",
+      "alignement": "Bon",
+      "img": "https://th.bing.com/th/id/OIP.T9c91dvDj4wf-PEFEzWUcQHaO2?w=174&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 5000,
+      "techniques": [
+        "Destructo Disk",
+        "Solar Flare",
+        "Scatter Shot"
+      ],
+      "evolutions" : []
+    },
+    {
+      "nom": "Yamcha",
+      "race": "Human",
+      "alignement": "Bon",
+      "img" : "https://th.bing.com/th/id/OIP.amVrwWtJhSZtLjyQBlGs8wHaLs?w=199&h=314&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 4000,
+      "techniques": [
+        "Wolf Fang Fist",
+        "Spirit Ball",
+        "Spirit Ball"
+      ],
+      "evolutions" : []
+    },
+    {
+      "nom": "Freezer",
+      "race": "Frost Demon",
+      "alignement": "Mauvais",
+      "img" : "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 12000,
+      "techniques": [
+        "Death Ball",
+        "Supernova",
+        "Death Beam"
+      ],
+      "evolutions" : [
+        {
+          "nom" : "Freezer 2eme forme",
+          "puissance" : 20000,
+          "img" : "https://th.bing.com/th/id/OIP.Apdd0K5vZvEtGR3vCtqm2QHaJk?w=202&h=262&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques" : [
+            "Death Ball",
+            "Supernova"
+          ]
+        },
+        {
+          "nom" : "Freezer 3eme forme",
+          "puissance" : 50000,
+          "img" : "https://th.bing.com/th/id/OIP.u1laZg-RZHQ_oeHtjFMRogHaMC?w=196&h=318&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques" : [
+            "Death Ball",
+            "Supernova"
+          ]
+        },
+        {
+          "nom" : "Freezer forme finale",
+          "puissance" : 100000,
+          "img" : "https://th.bing.com/th/id/OIP.RQetT5L4HnjzfBuxCm7oDQHaJP?w=202&h=253&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques" : [
+            "Death Ball",
+            "Supernova"
+          ]
+        },
+        {
+          "nom": "Golden Freezer",
+          "puissance": 50000,
+          "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Golden Death Ball",
+            "Golden Supernova"
+          ]
+        }
+      ]
+
+    },
+    {
+      "nom": "Cell",
+      "race": "Bio-Android",
+      "alignement": "Mauvais",
+      "img" : "https://th.bing.com/th/id/OIP.TWiHoHC5DtW2OCkpXGUzBQHaJb?w=202&h=258&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 15000,
+      "techniques": [
+        "Kamehameha",
+        "Solar Kamehameha",
+        "Death Beam"
+      ],
+      "evolutions" : [
+        {
+          "nom" : "Cell forme parfaite",
+          "puissance" : 50000,
+          "img" : "https://th.bing.com/th/id/OIP.tM-ONIHZYRJ82LABq_e7vwHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques" : [
+            "Super Kamehameha",
+            "Solar Kamehameha"
+          ]
+        }
+      ]
+
+    },
+    {
+      "nom": "Buu",
+      "race": "Majin",
+      "alignement": "Mauvais",
+      "img" : "https://th.bing.com/th/id/OIP.R7jPVWBZehbCOeN4KIqIwwAAAA?rs=1&pid=ImgDetMain",
+      "puissance": 20000,
+      "techniques": [
+        "Kamehameha",
+        "Super Kamehameha",
+        "Planet Burst"
+      ],
+      "evolutions" : [
+        {
+          "nom" : "Buu forme pure",
+          "puissance" : 50000,
+          "img" : "https://th.bing.com/th/id/OIP.NJhfkdjO8cjcJ7vBIHRbDgHaJe?w=202&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques" : [
+            "Kamehameha",
+            "Super Kamehameha"
+          ]
+        }
+      ]
+    } 
+
   ],
   "favorites": []
 }
