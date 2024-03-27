@@ -9,11 +9,12 @@ export default class CharacterAll {
                 <h1>Characters</h1>
                 <ul>
                     ${characters.map(character =>/*html*/`
-                        
                         <li>
                             <section class="container">
-                            <img src="${character.img}" alt="image de ${character.nom}">
-                            <a href="#/character/${character.id}">${character.nom}</a>
+                            <a href="#/character/${character.id}">
+                            <img src="${character.img}" alt="image de ${character.nom}" >
+                            <h3>${character.nom}</h3>
+                            </a>
                             </section>
                         </li>
                     `).join('')}

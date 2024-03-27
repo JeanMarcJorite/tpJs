@@ -16,8 +16,8 @@ export default class FavoritesShow {
         let view = /*html*/`
             <section class="section">
                 <h1>Favorites</h1>
-                <p> Welcome to our Favorites</p>
-            </section>
+
+                </section>
             <ul>
             ${favorites.map(character =>`
                 <li>
@@ -28,8 +28,6 @@ export default class FavoritesShow {
                 </li>
                 `
                 )}
-
-
         `;
         return view;
     }

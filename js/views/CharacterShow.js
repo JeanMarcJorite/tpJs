@@ -17,9 +17,14 @@ export default class CharacterShow {
                 <p> Race : ${post.race} </p>
                 <p> Puissance de combat : ${post.puissance} </p>
                 <img src="${post.img}" alt="image de ${post.nom}">
-                <button type="button" onclick="addFavorite()"> ajouter en favoris</button>
+                <h2> Techniques : </h2>
+                <ul>
+                    ${post.techniques.map(technique => `<li>${technique}</li>`).join('')}
+                </ul>
+                <button type="button" class="star-button " onclick="addFavorite()"> Ajouter en favoris</button>
+
             </section>
-            <p><a href="/">back to home</a></p>
+            <p><a href="/">back to home</a></p>             
         `
     }
 }
