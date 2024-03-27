@@ -5,11 +5,7 @@ export default class FavoritesShow {
     async render() {
         let favorites = await FavoriteCharacter.fetchFavorites();
         console.log(favorites);
-        let post = await FavoriteCharacter.getFavorite(favorites.id)
 
-        window.removeFavorite = async () => {
-            await FavoriteCharacter.removeFavorite(post);
-        }
         if (!favorites) {
             return `<div>No favorites found</div>`;
         }
@@ -19,17 +15,19 @@ export default class FavoritesShow {
                 <p> Welcome to our Favorites</p>
             </section>
             <ul>
-            ${favorites.map(character =>`
+            ${favorites.map(character => {
+                window[`removeFavorite${character.id}`] = async () => {
+                    await FavoriteCharacter.removeFavorite(character.id);
+                }
+                return /*html*/`
                 <li>
                  <section class="container">
                  <h1> Nom Personnage : ${character.nom}</h1>
-                 <button type="button" onclick="removeFavorite">Supprimer des favoris</section> 
+                 <button type="button" onclick="removeFavorite${character.id}()">Supprimer des favoris</section> 
                  </section>
                 </li>
-                `
-                )}
-
-
+                `;
+            })}
         `;
         return view;
     }
