@@ -15,7 +15,7 @@ export class FavoriteCharacter{
         }
     }
 
-    static getFavorite = async (id) => {
+    static getFavorite = async () => {
         const options = {
             method: 'GET',
             headers: {
@@ -23,7 +23,7 @@ export class FavoriteCharacter{
             }
         };
         try {
-            const response = await fetch('http://localhost:3001/favorites/' + id, options)
+            const response = await fetch('http://localhost:3001/favorites/')
             const json = await response.json();
             return json
         } catch (err) {
@@ -56,8 +56,11 @@ export class FavoriteCharacter{
             }
         };
         try {
+            console.log("test removeFavorite")
             const response = await fetch('http://localhost:3001/favorites/' + id, options)
-            return response.ok;
+            window.location.reload();
+            return response.ok; 
+            
         } catch (err) {
             console.log('Error removing favorite', err)
         }

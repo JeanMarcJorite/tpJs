@@ -197,39 +197,5 @@
       "id": "a411"
     }
   ],
-  "favorites": [
-    {
-      "id": "ef91",
-      "nom": "Gohan",
-      "race": "Saiyan/Human",
-      "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.5f7A0SVOxpYCWAM0yaGnVAHaJ3?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 7000,
-      "techniques": [
-        "Masenko",
-        "Kamehameha",
-        "Father-Son Kamehameha"
-      ],
-      "evolutions": [
-        {
-          "nom": "Super Saiyan 2",
-          "puissance": 80000,
-          "img": "https://th.bing.com/th/id/OIP.57WuKPqPr3M1N90a5B2P4wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Father-Son Kamehameha",
-            "Super Masenko"
-          ]
-        },
-        {
-          "nom": "Mystic Gohan",
-          "puissance": 200000,
-          "img": "https://th.bing.com/th/id/OIP.Oy0IH3NAJsz8L-Rl5xBBbAHaJ4?rs=1&pid=ImgDetMain",
-          "techniques": [
-            "Super Kamehameha",
-            "Burst Rush"
-          ]
-        }
-      ]
-    }
-  ]
+  "favorites": []
 }
