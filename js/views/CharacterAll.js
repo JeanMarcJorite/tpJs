@@ -7,7 +7,7 @@ export default class CharacterAll {
         let view = /*html*/`
             <section class="section">
                 <h1>Characters</h1>
-                <ul>
+                <ul class="personnage">
                     ${characters.map(character =>/*html*/`
                         <li>
                             <section class="container">
@@ -20,6 +20,31 @@ export default class CharacterAll {
                     `).join('')}
                 </ul>
             </section>
+
+            <style>
+                .personnage {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .personnage h3 {
+                    text-align: center;
+                }
+                .personnage li {
+                    list-style: none;
+                    margin: 10px;
+                }
+                .personnage img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                }
+                .personnage img:hover {
+                    transform: scale(1.1);
+                    transition: transform 0.5s;
+                    border: 2px solid black;
+                }
+            </style>
         `;
         return view;
     }
