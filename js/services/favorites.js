@@ -98,7 +98,7 @@ export class FavoriteCharacter{
             body: JSON.stringify(character)
         };
         try {
-            const response = await fetch(`${ENDPOINT2}` + id, options)
+            const response = await fetch('http://localhost:3001/favorites/' + id, options)
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
