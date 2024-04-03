@@ -37,7 +37,7 @@ export class FavoriteCharacter{
 
         for (let i = 0; i < favorites.length; i++) {
             if (favorites[i].id === character.id) {
-                console.log("Personnage déjà dans les favoris");
+                alert("Personnage déjà dans les favoris");
                 return;
             }
         }

@@ -1,15 +1,15 @@
 {
   "personnages": [
     {
-      "niveau": 3,
-      "nom": "Super Saiyan 3",
+      "niveau": 1,
+      "nom": "Super Saiyan",
       "race": "Saiyan",
       "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.so3fUtX5I0NMm8SldMGvwgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 400000,
+      "img": "https://th.bing.com/th/id/OIP.ra-wrLpnA55_IrzLVz-eYAHaMQ?w=194&h=321&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 50000,
       "techniques": [
-        "Dragon Fist",
-        "Super Dragon Flash"
+        "Super Kamehameha",
+        "Instant Transmission"
       ],
       "evolutions": [
         {
@@ -58,15 +58,16 @@
       "id": "cba1"
     },
     {
-      "niveau": 2,
-      "nom": "Super Saiyan 2",
+      "niveau": 0,
+      "nom": "Vegeta",
       "race": "Saiyan",
       "alignement": "Neutre",
-      "img": "https://th.bing.com/th/id/OIP.OW0m3fC_wIlwWgq2TCoLIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 95000,
+      "img": "https://th.bing.com/th/id/OIP.jNG2da_S1UywqE9hku02iQHaQL?w=160&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 9000,
       "techniques": [
-        "Final Shine Attack",
-        "Gamma Burst Flash"
+        "Galick Gun",
+        "Final Flash",
+        "Big Bang Attack"
       ],
       "evolutions": [
         {
@@ -303,15 +304,16 @@
       "id": "c3b1"
     },
     {
-      "niveau": 4,
-      "nom": "Golden Freezer",
+      "niveau": 0,
+      "nom": "Freezer",
       "race": "Frost Demon",
       "alignement": "Mauvais",
       "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 50000,
+      "puissance": 12000,
       "techniques": [
-        "Golden Death Ball",
-        "Golden Supernova"
+        "Death Ball",
+        "Supernova",
+        "Death Beam"
       ],
       "evolutions": [
         {
@@ -531,15 +533,16 @@
       "id": "ef91"
     },
     {
-      "niveau": 2,
-      "nom": "Super Saiyan 2",
+      "niveau": 0,
+      "nom": "Vegeta",
       "race": "Saiyan",
       "alignement": "Neutre",
-      "img": "https://th.bing.com/th/id/OIP.OW0m3fC_wIlwWgq2TCoLIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 95000,
+      "img": "https://th.bing.com/th/id/OIP.jNG2da_S1UywqE9hku02iQHaQL?w=160&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 9000,
       "techniques": [
-        "Final Shine Attack",
-        "Gamma Burst Flash"
+        "Galick Gun",
+        "Final Flash",
+        "Big Bang Attack"
       ],
       "evolutions": [
         {
@@ -578,15 +581,15 @@
       "id": "f87d"
     },
     {
-      "niveau": 3,
-      "nom": "Super Saiyan 3",
+      "niveau": 1,
+      "nom": "Super Saiyan",
       "race": "Saiyan",
       "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.so3fUtX5I0NMm8SldMGvwgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 400000,
+      "img": "https://th.bing.com/th/id/OIP.ra-wrLpnA55_IrzLVz-eYAHaMQ?w=194&h=321&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 50000,
       "techniques": [
-        "Dragon Fist",
-        "Super Dragon Flash"
+        "Super Kamehameha",
+        "Instant Transmission"
       ],
       "evolutions": [
         {

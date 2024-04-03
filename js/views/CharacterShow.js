@@ -29,7 +29,7 @@ export default class CharacterShow {
         }
         
         function updateDisplay(post) {
-            document.querySelector('.section h1').textContent = `Nom Personnage : ${post.nom}`;
+            document.querySelector('.section h1').textContent = `${post.nom}`;
             document.querySelector('.section p:nth-child(2)').textContent = `Race : ${post.race}`;
             document.querySelector('.section p:nth-child(3)').textContent = `Puissance de combat : ${post.puissance}`;
             document.querySelector('.section img').src = post.img;
@@ -40,7 +40,8 @@ export default class CharacterShow {
 
         return /*html*/`
             <section class="section">
-                <h1> Nom Personnage : ${post.nom}</h1>
+                
+                <h1>${post.nom}</h1>
                 <p> Race : ${post.race} </p>
                 <p> Puissance de combat : ${post.puissance} </p>
                 <img src="${post.img}" alt="image de ${post.nom}">
@@ -48,11 +49,54 @@ export default class CharacterShow {
                 <ul>
                     ${post.techniques.map(technique => `<li>${technique}</li>`).join('')}
                 </ul>
+
+                <section class="allbtn" >
                 <button type="button" class="star-button " onclick="addFavorite()"> Ajouter en favoris</button>
-                <button type="button" onclick="diminuerNiveau().catch(console.error)">Diminuer le niveau</button>
                 <button type="button" onclick="augmenterNiveau().catch(console.error)">Augmenter le niveau</button>
+                <button type="button" onclick="diminuerNiveau().catch(console.error)">Diminuer le niveau</button>
+
+                </section>
             </section>
-            <p><a href="/">back to home</a></p>             
+            
+            
+            <style>
+                .star-button {
+                    background-color: #f1c40f;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                }
+                .star-button:hover {
+                    background-color: #f39c12;
+                }
+                .star-button:active {
+                    background-color: #f1c40f;
+                }
+                .section img {
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                }
+
+                .section {
+                    margin: 2;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                #allbtn {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            </style>
         `
     }
     
