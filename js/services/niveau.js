@@ -32,7 +32,7 @@ export default class Niveau {
             post.techniques = evolution.techniques;
             await this.updateCharacter(post, request.id);
         } else {
-            console.log(`${post.nom} a atteint le niveau maximum.`);
+            alert(`${post.nom} a atteint le niveau maximum.`);
         }
     }
 
@@ -46,7 +46,7 @@ export default class Niveau {
             post.techniques = evolution.techniques;
             await this.updateCharacter(post, request.id);
         } else {
-            console.log(`${post.nom} est déjà au niveau minimum.`);
+            alert(`${post.nom} est déjà au niveau minimum.`);
         }
     }
 
