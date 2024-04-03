@@ -3,7 +3,6 @@ import { FavoriteCharacter } from "../services/favorites.js";
 export default class FavoritesShow {
     async render() {
         let favorites = await FavoriteCharacter.fetchFavorites();
-        console.log(favorites);
 
         if (!favorites) {
             return `<div>No favorites found</div>`;

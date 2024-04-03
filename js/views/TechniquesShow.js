@@ -1,25 +1,34 @@
-import CharacterProvider from "../services/dbzProvider.js";
+import { TechniquesProvider } from '../services/TechniquesProvider.js';
+import Utils from '../services/utils.js';
 
-export default class CharacterAll {
+
+export default class TechniquesShow {
     async render() {
-        let characters = await CharacterProvider.fetchCharacters();
+        let request = Utils.parseRequestURL();
+        let personnages = await TechniquesProvider.getPersonnageTechniques(request.id);
+
+        if (!personnages) {
+            return `<div>No techniques found</div>`;
+        }
         let view = /*html*/`
             <section class="section">
-                <h1>Characters</h1>
-                <ul class="personnage">
-                    ${characters.map(character =>/*html*/`
-                        <li>
-                            <section class="container">
-                            <a href="#/character/${character.id}">
-                            <img src="${character.img}" alt="image de ${character.nom}" />
-                            <h3>${character.nom}</h3>
-                            </a>
-                            </section>
-                        </li>
-                    `).join('')}
-                </ul>
-            </section>
+                <h1>${request.id.toUpperCase().replace(/%20/g, ' ')}</h1>
 
+            </section>
+            <ul class="personnage">
+            ${personnages.map(character => {
+                return /*html*/`
+                    <li>
+                        <section class="container">
+                            <a href="#/character/${character.id}">
+                                <img src="${character.img}" alt="image de ${character.nom}" />
+                                <h3>${character.nom}</h3>
+                            </a>
+                        </section>
+                    </li>
+                `;
+            }).join('')}
+            </ul>
             <style>
                 .personnage {
                     display: flex;
@@ -45,6 +54,6 @@ export default class CharacterAll {
                 }
             </style>
         `;
-        return view;
+        return view;           
     }
 }

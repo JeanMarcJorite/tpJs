@@ -1,3 +1,5 @@
+import { ENDPOINT2 } from "../config.js";
+
 export class FavoriteCharacter{
     static fetchFavorites = async () => {
         const options = {
@@ -7,7 +9,7 @@ export class FavoriteCharacter{
             }
         };
         try {
-            const response = await fetch('http://localhost:3001/favorites', options)
+            const response = await fetch(`${ENDPOINT2}`, options);
             const json = await response.json();
             return json
         } catch (err) {
@@ -23,7 +25,7 @@ export class FavoriteCharacter{
             }
         };
         try {
-            const response = await fetch('http://localhost:3001/favorites/')
+            const response = await fetch(`${ENDPOINT2}`, options);
             const json = await response.json();
             return json
         } catch (err) {
@@ -37,7 +39,7 @@ export class FavoriteCharacter{
 
         for (let i = 0; i < favorites.length; i++) {
             if (favorites[i].id === character.id) {
-                console.log("Personnage déjà dans les favoris");
+                alert("Personnage déjà dans les favoris");
                 return;
             }
         }
@@ -50,7 +52,7 @@ export class FavoriteCharacter{
             body: JSON.stringify(character)
         };
         try {
-            const response = await fetch('http://localhost:3001/favorites', options)
+            const response = await fetch(`${ENDPOINT2}`, options)
             const json = await response.json();
             return json
         } catch (err) {
@@ -67,12 +69,43 @@ export class FavoriteCharacter{
         };
         try {
             console.log("test removeFavorite")
-            const response = await fetch('http://localhost:3001/favorites/' + id, options)
+            const response = await fetch(`${ENDPOINT2}` + id, options)
             window.location.reload();
             return response.ok; 
             
         } catch (err) {
             console.log('Error removing favorite', err)
+        }
+    }
+
+    
+    static isFavorite = async (id) => {
+        let favorites = await FavoriteCharacter.fetchFavorites();
+        for (let i = 0; i < favorites.length; i++) {
+            if (favorites[i].id === id) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    static updateFavorite = async (character, id) =>{
+        const options = {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(character)
+        };
+        try {
+            const response = await fetch(`${ENDPOINT2}` + id, options)
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const json = await response.json();
+            return json
+        } catch (err) {
+            console.log('Error updating favorite', err)
         }
     }
 }

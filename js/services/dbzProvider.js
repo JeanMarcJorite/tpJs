@@ -8,7 +8,6 @@ export default class CharacterProvider {
             const data = await rep.text();
             try {
                 const jsonData = JSON.parse(data);
-                console.log(jsonData);
                 return jsonData;
             } catch {
                 console.error('Invalid JSON response:', data);
