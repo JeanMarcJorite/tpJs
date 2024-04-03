@@ -32,6 +32,16 @@ export class FavoriteCharacter{
     }
 
     static addFavorite = async (character) => {
+
+        let favorites = await FavoriteCharacter.fetchFavorites();
+
+        for (let i = 0; i < favorites.length; i++) {
+            if (favorites[i].id === character.id) {
+                console.log("Personnage déjà dans les favoris");
+                return;
+            }
+        }
+
         const options = {
             method: 'POST',
             headers: {
