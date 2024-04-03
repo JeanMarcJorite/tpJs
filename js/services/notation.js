@@ -22,9 +22,8 @@ export default class Notation {
     }
 
     static async augmenterNotation(post, request) {  
-        console.log("ici",request);
-        if (post.notation < 5) {
-            post.notation++;
+        if (post.note < 5) {
+            post.note++;
             await this.updateNotation(post, request.id);
         } else {
             alert(`La note de ${post.nom} est déjà au maximum.`);
@@ -32,8 +31,10 @@ export default class Notation {
     }
 
     static async diminuerNotation(post, request) {
-        if (post.notation > 0) {
-            post.notation--;
+        console.log("ici",request);
+        console.log("ici",post);
+        if (post.note > 0) {
+            post.note--;
             await this.updateNotation(post, request.id);
         } else {
             alert(`La note de ${post.nom} est déjà au minimum.`);

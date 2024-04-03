@@ -63,8 +63,11 @@ export class TechniquesProvider {
         if (personnage.evolutions != null) {
           for (let evolution of personnage.evolutions) {
             for (let evolutionTechnique of evolution.techniques) {
-              if (evolutionTechnique.toUpperCase() === technique) {
+              if (evolutionTechnique.toUpperCase() == technique) {
+                         
                 personnageTechniques.add(personnage);
+
+
               }
             }
           }

@@ -45,7 +45,9 @@ export default class CharacterShow {
             document.querySelector('.section p:nth-child(3)').textContent = `Puissance de combat : ${post.puissance}`;
             document.querySelector('.section img').src = post.img;
             document.querySelector('.section img').alt = `image de ${post.nom}`;
+            document.querySelector('#note').textContent = `Note : ${post.note}/5`;
             document.querySelector('.section ul').innerHTML = post.techniques.map(technique => `<li>${technique}</li>`).join('');
+
         }
         
 
@@ -56,6 +58,7 @@ export default class CharacterShow {
                 <p> Race : ${post.race} </p>
                 <p> Puissance de combat : ${post.puissance} </p>
                 <img src="${post.img}" alt="image de ${post.nom}">
+                <p id="note" > Note : ${post.note}/5 </p>
                 <h2> Techniques : </h2>
                 <ul>
                     ${post.techniques.map(technique => `<li>${technique}</li>`).join('')}
