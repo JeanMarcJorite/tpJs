@@ -35,4 +35,24 @@ export default class CharacterProvider {
             throw error;
         }
     }
+
+    
+    static searchCharacters = async (searchTerm) => {
+        try {
+            const rep = await fetch(`${ENDPOINT}`);
+            if (!rep.ok) throw new Error('Erreur searchCharacters');
+            let data = await rep.text();
+            try {
+                const allCharacters = JSON.parse(data);
+                data = allCharacters.filter(character => character.nom.toLowerCase().includes(searchTerm.toLowerCase()));
+                console.log("searchCharacter +> data :", data);
+                return data;
+            } catch {
+                throw new Error('Invalid JSON response');
+            }
+        } catch (error) {
+            console.error('Erreur searchCharacters', error);
+            throw error;
+        }
+    }
 }
