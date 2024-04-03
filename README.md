@@ -1,17 +1,52 @@
-# todo_list
+# TP JS
+## Membres de l'équipe :
+ - Jean-Marc Jorite
+ - Roshan Gnaneswaran
 
-A new Flutter project.
+### Objectifs de notre Application
 
-## Getting Started
+    - Application de gestion des personnages de Dragon Ball
 
-This project is a starting point for a Flutter application.
+### Fonctionnalité de l'application
+    |------------------------|----------------------------------------------------------------|
+    | Fonctionnalité         | Description                                                    |
+    |------------------------|----------------------------------------------------------------|
+    | Gestion des favoris    | Ajout et suppression de personnages favoris                    |
+    |------------------------|----------------------------------------------------------------|
+    | Barre de recherche     | Recherche les personnages contenant les lettres dans la  barre |
+    |------------------------|----------------------------------------------------------------|
+    | Gestion des évolutions | Boutons pour faire évoluer les personnages                     |
+    |------------------------|----------------------------------------------------------------|
+    | Gestion des notes      | Notations des différents personnages                           |
+    |------------------------|----------------------------------------------------------------|
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Vues réaliser 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# tpJs
+    |------------------------|----------------------------------------------------------------|
+    | Vues                   | Description                                                    |
+    |------------------------|----------------------------------------------------------------|
+    | Home                   | Acceuil de l'utilisateur                                       |
+    |------------------------|----------------------------------------------------------------|
+    | CharacterAll           | Tous les personnages dans les données Json                     |
+    |------------------------|----------------------------------------------------------------|
+    | CharacterShow          | Détails du personnage sélectionné                              |
+    |------------------------|----------------------------------------------------------------|
+    | FavoritesShow          | Tous les personnages ajoutés en favoris                        |
+    |------------------------|----------------------------------------------------------------|
+    | Techniques             | Toutes les techniques présent dans les données Json            |
+    |------------------------|----------------------------------------------------------------|
+    | TechniquesShow         | Indique les personnages possedant la techniques sélectionnées  |
+    |------------------------|----------------------------------------------------------------|
+    
+### Lancer l'application
+ 
+Pour lancer l'application, vous pouvez suivre ces étapes :
+
+1. Clonez le dépôt sur votre machine locale.
+2. Accédez au répertoire du projet.
+3. Installez les dépendances requises en exécutant la commande `npm install`.
+4. Lancez l'application en exécutant la commande `npm start`.
+5. Ouvrez votre navigateur web et visitez `http://localhost:3000` pour accéder à l'application.
+
+
