@@ -1,16 +1,17 @@
 {
   "personnages": [
     {
-      "niveau": 2,
-      "nom": "Super Saiyan 2",
+      "niveau": 0,
+      "nom": "Son Goku",
       "race": "Saiyan",
       "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 100000,
-      "note": 5,
+      "img": "https://th.bing.com/th/id/OIP.Xt9mk1Zwy7VUxURx7qax1QHaKq?w=202&h=291&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 10000,
+      "note": 3,
       "techniques": [
-        "Super Dragon Fist",
-        "Solar Kamehameha"
+        "Kamehameha",
+        "Kaio-Ken",
+        "Genki Dama"
       ],
       "evolutions": [
         {
@@ -66,7 +67,7 @@
       "niveau": 2,
       "nom": "Super Saiyan 2",
       "race": "Saiyan",
-      "note": 5,
+      "note": 1,
       "alignement": "Neutre",
       "img": "https://th.bing.com/th/id/OIP.OW0m3fC_wIlwWgq2TCoLIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "puissance": 95000,
@@ -330,17 +331,16 @@
       "id": "c3b1"
     },
     {
-      "niveau": 0,
-      "nom": "Freezer",
+      "niveau": 4,
+      "nom": "Golden Freezer",
       "race": "Frost Demon",
       "note": 5,
       "alignement": "Mauvais",
       "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 12000,
+      "puissance": 50000,
       "techniques": [
-        "Death Ball",
-        "Supernova",
-        "Death Beam"
+        "Golden Death Ball",
+        "Golden Supernova"
       ],
       "evolutions": [
         {
@@ -404,17 +404,16 @@
       "id": "d4c1"
     },
     {
-      "niveau": 0,
-      "nom": "Cell",
+      "niveau": 1,
+      "nom": "Cell forme parfaite",
       "race": "Bio-Android",
       "alignement": "Mauvais",
       "note": 5,
-      "img": "https://th.bing.com/th/id/OIP.TWiHoHC5DtW2OCkpXGUzBQHaJb?w=202&h=258&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 15000,
+      "img": "https://th.bing.com/th/id/OIP.tM-ONIHZYRJ82LABq_e7vwHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 50000,
       "techniques": [
-        "Kamehameha",
-        "Solar Kamehameha",
-        "Death Beam"
+        "Super Kamehameha",
+        "Solar Kamehameha"
       ],
       "evolutions": [
         {
@@ -486,105 +485,5 @@
       "id": "f6a1"
     }
   ],
-  "favorites": [
-    {
-      "id": "e5b1",
-      "niveau": 1,
-      "nom": "Cell forme parfaite",
-      "race": "Bio-Android",
-      "alignement": "Mauvais",
-      "img": "https://th.bing.com/th/id/OIP.tM-ONIHZYRJ82LABq_e7vwHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 50000,
-      "techniques": [
-        "Super Kamehameha",
-        "Solar Kamehameha"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Cell",
-          "race": "Bio-Android",
-          "img": "https://th.bing.com/th/id/OIP.TWiHoHC5DtW2OCkpXGUzBQHaJb?w=202&h=258&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 15000,
-          "techniques": [
-            "Kamehameha",
-            "Solar Kamehameha",
-            "Death Beam"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Cell forme parfaite",
-          "puissance": 50000,
-          "img": "https://th.bing.com/th/id/OIP.tM-ONIHZYRJ82LABq_e7vwHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Super Kamehameha",
-            "Solar Kamehameha"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cba1",
-      "niveau": 2,
-      "nom": "Super Saiyan 2",
-      "race": "Saiyan",
-      "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 100000,
-      "note": 5,
-      "techniques": [
-        "Super Dragon Fist",
-        "Solar Kamehameha"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Son Goku",
-          "race": "Saiyan",
-          "img": "https://th.bing.com/th/id/OIP.Xt9mk1Zwy7VUxURx7qax1QHaKq?w=202&h=291&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 10000,
-          "note": 5,
-          "techniques": [
-            "Kamehameha",
-            "Kaio-Ken",
-            "Genki Dama"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Super Saiyan",
-          "puissance": 50000,
-          "note": 5,
-          "img": "https://th.bing.com/th/id/OIP.ra-wrLpnA55_IrzLVz-eYAHaMQ?w=194&h=321&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Super Kamehameha",
-            "Instant Transmission"
-          ]
-        },
-        {
-          "niveau": 2,
-          "nom": "Super Saiyan 2",
-          "puissance": 100000,
-          "note": 5,
-          "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Super Dragon Fist",
-            "Solar Kamehameha"
-          ]
-        },
-        {
-          "niveau": 3,
-          "nom": "Super Saiyan 3",
-          "puissance": 400000,
-          "note": 5,
-          "img": "https://th.bing.com/th/id/OIP.so3fUtX5I0NMm8SldMGvwgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Dragon Fist",
-            "Super Dragon Flash"
-          ]
-        }
-      ]
-    }
-  ]
+  "favorites": []
 }
