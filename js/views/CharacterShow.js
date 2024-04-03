@@ -2,6 +2,7 @@ import Utils from "../services/utils.js";
 import dbzProvider from "../services/dbzProvider.js";
 import { FavoriteCharacter } from "../services/favorites.js";
 import Niveau from "../services/niveau.js";
+import Notation from "../services/notation.js"; 
 
 export default class CharacterShow {
     async render () {
@@ -27,7 +28,17 @@ export default class CharacterShow {
             }
             updateDisplay(post);
         }
-        
+
+        window.augmenterNotation = async () => {
+            await Notation.augmenterNotation(post, request);
+            updateDisplay(post);
+        }
+
+        window.diminuerNotation = async () => {
+            await Notation.diminuerNotation(post, request);
+            updateDisplay(post);
+        }
+
         function updateDisplay(post) {
             document.querySelector('.section h1').textContent = `${post.nom}`;
             document.querySelector('.section p:nth-child(2)').textContent = `Race : ${post.race}`;
@@ -54,7 +65,8 @@ export default class CharacterShow {
                 <button type="button" class="star-button " onclick="addFavorite()"> Ajouter en favoris</button>
                 <button type="button" onclick="augmenterNiveau().catch(console.error)">Augmenter le niveau</button>
                 <button type="button" onclick="diminuerNiveau().catch(console.error)">Diminuer le niveau</button>
-
+                <button type="button" onclick="augmenterNotation().catch(console.error)">Note +</button>
+                <button type="button" onclick="diminuerNotation().catch(console.error)">Note -</button>
                 </section>
             </section>
             

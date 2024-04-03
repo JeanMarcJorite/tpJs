@@ -1,15 +1,16 @@
 {
   "personnages": [
     {
-      "niveau": 1,
-      "nom": "Super Saiyan",
+      "niveau": 2,
+      "nom": "Super Saiyan 2",
       "race": "Saiyan",
       "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.ra-wrLpnA55_IrzLVz-eYAHaMQ?w=194&h=321&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 50000,
+      "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 100000,
+      "note": 5,
       "techniques": [
-        "Super Kamehameha",
-        "Instant Transmission"
+        "Super Dragon Fist",
+        "Solar Kamehameha"
       ],
       "evolutions": [
         {
@@ -18,6 +19,7 @@
           "race": "Saiyan",
           "img": "https://th.bing.com/th/id/OIP.Xt9mk1Zwy7VUxURx7qax1QHaKq?w=202&h=291&c=7&r=0&o=5&dpr=1.3&pid=1.7",
           "puissance": 10000,
+          "note": 5,
           "techniques": [
             "Kamehameha",
             "Kaio-Ken",
@@ -28,6 +30,7 @@
           "niveau": 1,
           "nom": "Super Saiyan",
           "puissance": 50000,
+          "note": 5,
           "img": "https://th.bing.com/th/id/OIP.ra-wrLpnA55_IrzLVz-eYAHaMQ?w=194&h=321&c=7&r=0&o=5&dpr=1.3&pid=1.7",
           "techniques": [
             "Super Kamehameha",
@@ -38,6 +41,7 @@
           "niveau": 2,
           "nom": "Super Saiyan 2",
           "puissance": 100000,
+          "note": 5,
           "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
           "techniques": [
             "Super Dragon Fist",
@@ -48,6 +52,7 @@
           "niveau": 3,
           "nom": "Super Saiyan 3",
           "puissance": 400000,
+          "note": 5,
           "img": "https://th.bing.com/th/id/OIP.so3fUtX5I0NMm8SldMGvwgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
           "techniques": [
             "Dragon Fist",
@@ -58,6 +63,432 @@
       "id": "cba1"
     },
     {
+      "niveau": 1,
+      "nom": "Super Saiyan",
+      "race": "Saiyan",
+      "note": 5,
+      "alignement": "Neutre",
+      "img": "https://th.bing.com/th/id/OIP.A725zqU_FK0MBMXRfz2p-wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 45000,
+      "techniques": [
+        "Final Flash",
+        "Big Bang Attack"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Vegeta",
+          "race": "Saiyan",
+          "img": "https://th.bing.com/th/id/OIP.jNG2da_S1UywqE9hku02iQHaQL?w=160&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 9000,
+          "note": 5,
+          "techniques": [
+            "Galick Gun",
+            "Final Flash",
+            "Big Bang Attack"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Super Saiyan",
+          "puissance": 45000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.A725zqU_FK0MBMXRfz2p-wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Final Flash",
+            "Big Bang Attack"
+          ]
+        },
+        {
+          "niveau": 2,
+          "nom": "Super Saiyan 2",
+          "puissance": 95000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.OW0m3fC_wIlwWgq2TCoLIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Final Shine Attack",
+            "Gamma Burst Flash"
+          ]
+        }
+      ],
+      "id": "f87d"
+    },
+    {
+      "niveau": 0,
+      "nom": "Piccolo",
+      "race": "Namek",
+      "note": 5,
+      "puissance": 8000,
+      "techniques": [
+        "Makankosappo",
+        "Special Beam Cannon",
+        "Hellzone Grenade"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Piccolo",
+          "race": "Namek",
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.NayYSV4imJFP2FNzIyxXFQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 8000,
+          "techniques": [
+            "Makankosappo",
+            "Special Beam Cannon",
+            "Hellzone Grenade"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Piccolo Fusion avec Nail",
+          "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/dd4p5gj-184b8aa6-62a3-471e-a211-a7dba9368b7a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg0ZGMxM2I3LWEyZTctNGI0NS04M2VjLTMxMWU3MmU4MjkwMFwvZGQ0cDVnai0xODRiOGFhNi02MmEzLTQ3MWUtYTIxMS1hN2RiYTkzNjhiN2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9eAbfMhoF9SzRKZDOByPTbZxGc6y3KHvr0dZNbNjyh4",
+          "puissance": 20000,
+          "note": 5,
+          "techniques": [
+            "Special Beam Cannon",
+            "Light Grenade"
+          ]
+        }
+      ],
+      "id": "4dd5",
+      "img": "https://th.bing.com/th/id/OIP.NayYSV4imJFP2FNzIyxXFQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+      "niveau": 2,
+      "nom": "Mystic Gohan",
+      "race": "Saiyan/Human",
+      "note": 5,
+      "alignement": "Bon",
+      "img": "https://th.bing.com/th/id/OIP.Oy0IH3NAJsz8L-Rl5xBBbAHaJ4?rs=1&pid=ImgDetMain",
+      "puissance": 200000,
+      "techniques": [
+        "Super Kamehameha",
+        "Burst Rush"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Gohan",
+          "note": 5,
+          "race": "Saiyan/Human",
+          "img": "https://th.bing.com/th/id/OIP.5f7A0SVOxpYCWAM0yaGnVAHaJ3?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 7000,
+          "techniques": [
+            "Masenko",
+            "Kamehameha",
+            "Father-Son Kamehameha"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Super Saiyan 2",
+          "note": 5,
+          "puissance": 80000,
+          "img": "https://th.bing.com/th/id/OIP.57WuKPqPr3M1N90a5B2P4wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Father-Son Kamehameha",
+            "Super Masenko"
+          ]
+        },
+        {
+          "niveau": 2,
+          "nom": "Mystic Gohan",
+          "note": 5,
+          "puissance": 200000,
+          "img": "https://th.bing.com/th/id/OIP.Oy0IH3NAJsz8L-Rl5xBBbAHaJ4?rs=1&pid=ImgDetMain",
+          "techniques": [
+            "Super Kamehameha",
+            "Burst Rush"
+          ]
+        }
+      ],
+      "id": "ef91"
+    },
+    {
+      "niveau": 0,
+      "nom": "Trunks",
+      "race": "Saiyan/Human",
+      "note": 5,
+      "alignement": "Bon",
+      "img": "https://th.bing.com/th/id/OIP.6KXgztF1gYnOLUbgY-clNgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 7500,
+      "techniques": [
+        "Galick Gun",
+        "Finish Buster",
+        "Sword of Hope"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Trunks",
+          "race": "Saiyan/Human",
+          "img": "https://th.bing.com/th/id/OIP.6KXgztF1gYnOLUbgY-clNgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 7500,
+          "note": 5,
+          "techniques": [
+            "Galick Gun",
+            "Finish Buster",
+            "Sword of Hope"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Super Saiyan",
+          "note": 5,
+          "puissance": 40000,
+          "img": "https://external-preview.redd.it/h5bg2KQKn_A6yk52nNbJpzx68Hkkrr1y0HVpLqclxIw.jpg?width=640&crop=smart&auto=webp&s=a2366d5cbc88bdb2432665282519087359e6f1a1",
+          "techniques": [
+            "Burning Attack",
+            "Heat Dome Attack"
+          ]
+        },
+        {
+          "niveau": 2,
+          "nom": "Super Saiyan Rage",
+          "note": 5,
+          "puissance": 150000,
+          "img": "https://th.bing.com/th/id/OIP.7KhEK6dDVI_bFBG3aKd3nAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Final Hope Slash",
+            "Final Flash"
+          ]
+        }
+      ],
+      "id": "943d"
+    },
+    {
+      "niveau": 0,
+      "nom": "Goten",
+      "race": "Saiyan/Human",
+      "note": 5,
+      "alignement": "Bon",
+      "img": "https://th.bing.com/th/id/OIP.IQPyA5EhphdsbrJtYXGoOAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 7000,
+      "techniques": [
+        "Kamehameha",
+        "Galick Gun",
+        "Super Kamehameha"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Goten",
+          "note": 5,
+          "race": "Saiyan/Human",
+          "img": "https://th.bing.com/th/id/OIP.IQPyA5EhphdsbrJtYXGoOAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 7000,
+          "techniques": [
+            "Kamehameha",
+            "Galick Gun",
+            "Super Kamehameha"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Super Saiyan",
+          "note": 5,
+          "puissance": 40000,
+          "img": "https://th.bing.com/th/id/OIP.koaFtQbFECnT_4dRXy6C9QHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Super Kamehameha",
+            "Galick Gun"
+          ]
+        }
+      ],
+      "id": "a411"
+    },
+    {
+      "niveau": 0,
+      "nom": "Krillin",
+      "race": "Human",
+      "alignement": "Bon",
+      "note": 5,
+      "img": "https://th.bing.com/th/id/OIP.T9c91dvDj4wf-PEFEzWUcQHaO2?w=174&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 5000,
+      "techniques": [
+        "Destructo Disk",
+        "Solar Flare",
+        "Scatter Shot"
+      ],
+      "evolutions": [],
+      "id": "b2a1"
+    },
+    {
+      "niveau": 0,
+      "nom": "Yamcha",
+      "race": "Human",
+      "note": 5,
+      "alignement": "Bon",
+      "img": "https://th.bing.com/th/id/OIP.amVrwWtJhSZtLjyQBlGs8wHaLs?w=199&h=314&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 4000,
+      "techniques": [
+        "Wolf Fang Fist",
+        "Spirit Ball",
+        "Spirit Ball"
+      ],
+      "evolutions": [],
+      "id": "c3b1"
+    },
+    {
+      "niveau": 0,
+      "nom": "Freezer",
+      "race": "Frost Demon",
+      "note": 5,
+      "alignement": "Mauvais",
+      "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 12000,
+      "techniques": [
+        "Death Ball",
+        "Supernova",
+        "Death Beam"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Freezer",
+          "race": "Frost Demon",
+          "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 12000,
+          "note": 5,
+          "techniques": [
+            "Death Ball",
+            "Supernova",
+            "Death Beam"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Freezer 2eme forme",
+          "puissance": 20000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.Apdd0K5vZvEtGR3vCtqm2QHaJk?w=202&h=262&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Death Ball",
+            "Supernova"
+          ]
+        },
+        {
+          "niveau": 2,
+          "nom": "Freezer 3eme forme",
+          "puissance": 50000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.u1laZg-RZHQ_oeHtjFMRogHaMC?w=196&h=318&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Death Ball",
+            "Supernova"
+          ]
+        },
+        {
+          "niveau": 3,
+          "nom": "Freezer forme finale",
+          "puissance": 100000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.RQetT5L4HnjzfBuxCm7oDQHaJP?w=202&h=253&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Death Ball",
+            "Supernova"
+          ]
+        },
+        {
+          "niveau": 4,
+          "nom": "Golden Freezer",
+          "puissance": 50000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Golden Death Ball",
+            "Golden Supernova"
+          ]
+        }
+      ],
+      "id": "d4c1"
+    },
+    {
+      "niveau": 0,
+      "nom": "Cell",
+      "race": "Bio-Android",
+      "alignement": "Mauvais",
+      "note": 5,
+      "img": "https://th.bing.com/th/id/OIP.TWiHoHC5DtW2OCkpXGUzBQHaJb?w=202&h=258&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 15000,
+      "techniques": [
+        "Kamehameha",
+        "Solar Kamehameha",
+        "Death Beam"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Cell",
+          "race": "Bio-Android",
+          "img": "https://th.bing.com/th/id/OIP.TWiHoHC5DtW2OCkpXGUzBQHaJb?w=202&h=258&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 15000,
+          "note": 5,
+          "techniques": [
+            "Kamehameha",
+            "Solar Kamehameha",
+            "Death Beam"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Cell forme parfaite",
+          "puissance": 50000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.tM-ONIHZYRJ82LABq_e7vwHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Super Kamehameha",
+            "Solar Kamehameha"
+          ]
+        }
+      ],
+      "id": "e5b1"
+    },
+    {
+      "niveau": 1,
+      "nom": "Buu forme pure",
+      "race": "Majin",
+      "alignement": "Mauvais",
+      "note": 5,
+      "img": "https://th.bing.com/th/id/OIP.NJhfkdjO8cjcJ7vBIHRbDgHaJe?w=202&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 50000,
+      "techniques": [
+        "Kamehameha",
+        "Super Kamehameha"
+      ],
+      "evolutions": [
+        {
+          "niveau": 0,
+          "nom": "Buu",
+          "race": "Majin",
+          "alignement": "Mauvais",
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.R7jPVWBZehbCOeN4KIqIwwAAAA?rs=1&pid=ImgDetMain",
+          "puissance": 20000,
+          "techniques": [
+            "Kamehameha",
+            "Super Kamehameha",
+            "Planet Burst"
+          ]
+        },
+        {
+          "niveau": 1,
+          "nom": "Buu forme pure",
+          "puissance": 50000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.NJhfkdjO8cjcJ7vBIHRbDgHaJe?w=202&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Kamehameha",
+            "Super Kamehameha"
+          ]
+        }
+      ],
+      "id": "f6a1"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "f87d",
       "niveau": 0,
       "nom": "Vegeta",
       "race": "Saiyan",
@@ -102,276 +533,10 @@
             "Gamma Burst Flash"
           ]
         }
-      ],
-      "id": "f87d"
+      ]
     },
     {
-      "niveau": 0,
-      "nom": "Piccolo",
-      "race": "Namek",
-      "puissance": 8000,
-      "techniques": [
-        "Makankosappo",
-        "Special Beam Cannon",
-        "Hellzone Grenade"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Piccolo",
-          "race": "Namek",
-          "img": "https://th.bing.com/th/id/OIP.NayYSV4imJFP2FNzIyxXFQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 8000,
-          "techniques": [
-            "Makankosappo",
-            "Special Beam Cannon",
-            "Hellzone Grenade"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Piccolo Fusion avec Nail",
-          "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/dd4p5gj-184b8aa6-62a3-471e-a211-a7dba9368b7a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg0ZGMxM2I3LWEyZTctNGI0NS04M2VjLTMxMWU3MmU4MjkwMFwvZGQ0cDVnai0xODRiOGFhNi02MmEzLTQ3MWUtYTIxMS1hN2RiYTkzNjhiN2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9eAbfMhoF9SzRKZDOByPTbZxGc6y3KHvr0dZNbNjyh4",
-          "puissance": 20000,
-          "techniques": [
-            "Special Beam Cannon",
-            "Light Grenade"
-          ]
-        }
-      ],
-      "id": "4dd5",
-      "img": "https://th.bing.com/th/id/OIP.NayYSV4imJFP2FNzIyxXFQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-    },
-    {
-      "niveau": 2,
-      "nom": "Mystic Gohan",
-      "race": "Saiyan/Human",
-      "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.Oy0IH3NAJsz8L-Rl5xBBbAHaJ4?rs=1&pid=ImgDetMain",
-      "puissance": 200000,
-      "techniques": [
-        "Super Kamehameha",
-        "Burst Rush"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Gohan",
-          "race": "Saiyan/Human",
-          "img": "https://th.bing.com/th/id/OIP.5f7A0SVOxpYCWAM0yaGnVAHaJ3?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 7000,
-          "techniques": [
-            "Masenko",
-            "Kamehameha",
-            "Father-Son Kamehameha"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Super Saiyan 2",
-          "puissance": 80000,
-          "img": "https://th.bing.com/th/id/OIP.57WuKPqPr3M1N90a5B2P4wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Father-Son Kamehameha",
-            "Super Masenko"
-          ]
-        },
-        {
-          "niveau": 2,
-          "nom": "Mystic Gohan",
-          "puissance": 200000,
-          "img": "https://th.bing.com/th/id/OIP.Oy0IH3NAJsz8L-Rl5xBBbAHaJ4?rs=1&pid=ImgDetMain",
-          "techniques": [
-            "Super Kamehameha",
-            "Burst Rush"
-          ]
-        }
-      ],
-      "id": "ef91"
-    },
-    {
-      "niveau": 2,
-      "nom": "Super Saiyan Rage",
-      "race": "Saiyan/Human",
-      "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.7KhEK6dDVI_bFBG3aKd3nAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 150000,
-      "techniques": [
-        "Final Hope Slash",
-        "Final Flash"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Trunks",
-          "race": "Saiyan/Human",
-          "img": "https://th.bing.com/th/id/OIP.6KXgztF1gYnOLUbgY-clNgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 7500,
-          "techniques": [
-            "Galick Gun",
-            "Finish Buster",
-            "Sword of Hope"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Super Saiyan",
-          "puissance": 40000,
-          "img": "https://external-preview.redd.it/h5bg2KQKn_A6yk52nNbJpzx68Hkkrr1y0HVpLqclxIw.jpg?width=640&crop=smart&auto=webp&s=a2366d5cbc88bdb2432665282519087359e6f1a1",
-          "techniques": [
-            "Burning Attack",
-            "Heat Dome Attack"
-          ]
-        },
-        {
-          "niveau": 2,
-          "nom": "Super Saiyan Rage",
-          "puissance": 150000,
-          "img": "https://th.bing.com/th/id/OIP.7KhEK6dDVI_bFBG3aKd3nAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Final Hope Slash",
-            "Final Flash"
-          ]
-        }
-      ],
-      "id": "943d"
-    },
-    {
-      "niveau": 1,
-      "nom": "Super Saiyan",
-      "race": "Saiyan/Human",
-      "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.koaFtQbFECnT_4dRXy6C9QHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 40000,
-      "techniques": [
-        "Super Kamehameha",
-        "Galick Gun"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Goten",
-          "race": "Saiyan/Human",
-          "img": "https://th.bing.com/th/id/OIP.IQPyA5EhphdsbrJtYXGoOAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 7000,
-          "techniques": [
-            "Kamehameha",
-            "Galick Gun",
-            "Super Kamehameha"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Super Saiyan",
-          "puissance": 40000,
-          "img": "https://th.bing.com/th/id/OIP.koaFtQbFECnT_4dRXy6C9QHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Super Kamehameha",
-            "Galick Gun"
-          ]
-        }
-      ],
-      "id": "a411"
-    },
-    {
-      "niveau": 0,
-      "nom": "Krillin",
-      "race": "Human",
-      "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.T9c91dvDj4wf-PEFEzWUcQHaO2?w=174&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 5000,
-      "techniques": [
-        "Destructo Disk",
-        "Solar Flare",
-        "Scatter Shot"
-      ],
-      "evolutions": [],
-      "id": "b2a1"
-    },
-    {
-      "niveau": 0,
-      "nom": "Yamcha",
-      "race": "Human",
-      "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.amVrwWtJhSZtLjyQBlGs8wHaLs?w=199&h=314&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 4000,
-      "techniques": [
-        "Wolf Fang Fist",
-        "Spirit Ball",
-        "Spirit Ball"
-      ],
-      "evolutions": [],
-      "id": "c3b1"
-    },
-    {
-      "niveau": 0,
-      "nom": "Freezer",
-      "race": "Frost Demon",
-      "alignement": "Mauvais",
-      "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 12000,
-      "techniques": [
-        "Death Ball",
-        "Supernova",
-        "Death Beam"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Freezer",
-          "race": "Frost Demon",
-          "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 12000,
-          "techniques": [
-            "Death Ball",
-            "Supernova",
-            "Death Beam"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Freezer 2eme forme",
-          "puissance": 20000,
-          "img": "https://th.bing.com/th/id/OIP.Apdd0K5vZvEtGR3vCtqm2QHaJk?w=202&h=262&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Death Ball",
-            "Supernova"
-          ]
-        },
-        {
-          "niveau": 2,
-          "nom": "Freezer 3eme forme",
-          "puissance": 50000,
-          "img": "https://th.bing.com/th/id/OIP.u1laZg-RZHQ_oeHtjFMRogHaMC?w=196&h=318&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Death Ball",
-            "Supernova"
-          ]
-        },
-        {
-          "niveau": 3,
-          "nom": "Freezer forme finale",
-          "puissance": 100000,
-          "img": "https://th.bing.com/th/id/OIP.RQetT5L4HnjzfBuxCm7oDQHaJP?w=202&h=253&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Death Ball",
-            "Supernova"
-          ]
-        },
-        {
-          "niveau": 4,
-          "nom": "Golden Freezer",
-          "puissance": 50000,
-          "img": "https://th.bing.com/th/id/OIP.3gOQ-oGAIj96LN4y9h9xGAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Golden Death Ball",
-            "Golden Supernova"
-          ]
-        }
-      ],
-      "id": "d4c1"
-    },
-    {
+      "id": "e5b1",
       "niveau": 1,
       "nom": "Cell forme parfaite",
       "race": "Bio-Android",
@@ -405,47 +570,69 @@
             "Solar Kamehameha"
           ]
         }
-      ],
-      "id": "e5b1"
+      ]
     },
     {
-      "niveau": 1,
-      "nom": "Buu forme pure",
-      "race": "Majin",
-      "alignement": "Mauvais",
-      "img": "https://th.bing.com/th/id/OIP.NJhfkdjO8cjcJ7vBIHRbDgHaJe?w=202&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 50000,
+      "id": "cba1",
+      "niveau": 2,
+      "nom": "Super Saiyan 2",
+      "race": "Saiyan",
+      "alignement": "Bon",
+      "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 100000,
+      "note": 5,
       "techniques": [
-        "Kamehameha",
-        "Super Kamehameha"
+        "Super Dragon Fist",
+        "Solar Kamehameha"
       ],
       "evolutions": [
         {
           "niveau": 0,
-          "nom": "Buu",
-          "race": "Majin",
-          "alignement": "Mauvais",
-          "img": "https://th.bing.com/th/id/OIP.R7jPVWBZehbCOeN4KIqIwwAAAA?rs=1&pid=ImgDetMain",
-          "puissance": 20000,
+          "nom": "Son Goku",
+          "race": "Saiyan",
+          "img": "https://th.bing.com/th/id/OIP.Xt9mk1Zwy7VUxURx7qax1QHaKq?w=202&h=291&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "puissance": 10000,
+          "note": 5,
           "techniques": [
             "Kamehameha",
-            "Super Kamehameha",
-            "Planet Burst"
+            "Kaio-Ken",
+            "Genki Dama"
           ]
         },
         {
           "niveau": 1,
-          "nom": "Buu forme pure",
+          "nom": "Super Saiyan",
           "puissance": 50000,
-          "img": "https://th.bing.com/th/id/OIP.NJhfkdjO8cjcJ7vBIHRbDgHaJe?w=202&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.ra-wrLpnA55_IrzLVz-eYAHaMQ?w=194&h=321&c=7&r=0&o=5&dpr=1.3&pid=1.7",
           "techniques": [
-            "Kamehameha",
-            "Super Kamehameha"
+            "Super Kamehameha",
+            "Instant Transmission"
+          ]
+        },
+        {
+          "niveau": 2,
+          "nom": "Super Saiyan 2",
+          "puissance": 100000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Super Dragon Fist",
+            "Solar Kamehameha"
+          ]
+        },
+        {
+          "niveau": 3,
+          "nom": "Super Saiyan 3",
+          "puissance": 400000,
+          "note": 5,
+          "img": "https://th.bing.com/th/id/OIP.so3fUtX5I0NMm8SldMGvwgHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "techniques": [
+            "Dragon Fist",
+            "Super Dragon Flash"
           ]
         }
-      ],
-      "id": "f6a1"
+      ]
     }
-  ],
-  "favorites": []
+  ]
 }
