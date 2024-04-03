@@ -9,7 +9,7 @@ export class FavoriteCharacter{
             }
         };
         try {
-            const response = await fetch(`${ENDPOINT2}`, options);
+            const response = await fetch(`${ENDPOINT2}/`, options);
             const json = await response.json();
             return json
         } catch (err) {
@@ -25,7 +25,7 @@ export class FavoriteCharacter{
             }
         };
         try {
-            const response = await fetch(`${ENDPOINT2}`, options);
+            const response = await fetch(`${ENDPOINT2}/`, options);
             const json = await response.json();
             return json
         } catch (err) {
@@ -52,7 +52,7 @@ export class FavoriteCharacter{
             body: JSON.stringify(character)
         };
         try {
-            const response = await fetch(`${ENDPOINT2}`, options)
+            const response = await fetch(`${ENDPOINT2}/`, options)
             const json = await response.json();
             return json
         } catch (err) {
@@ -69,7 +69,7 @@ export class FavoriteCharacter{
         };
         try {
             console.log("test removeFavorite")
-            const response = await fetch(`${ENDPOINT2}` + id, options)
+            const response = await fetch(`${ENDPOINT2}/` + id, options)
             window.location.reload();
             return response.ok; 
             
@@ -98,7 +98,7 @@ export class FavoriteCharacter{
             body: JSON.stringify(character)
         };
         try {
-            const response = await fetch('http://localhost:3001/favorites/' + id, options)
+            const response = await fetch(`${ENDPOINT2}/`+ id, options)
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }

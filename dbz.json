@@ -63,16 +63,16 @@
       "id": "cba1"
     },
     {
-      "niveau": 1,
-      "nom": "Super Saiyan",
+      "niveau": 2,
+      "nom": "Super Saiyan 2",
       "race": "Saiyan",
       "note": 5,
       "alignement": "Neutre",
-      "img": "https://th.bing.com/th/id/OIP.A725zqU_FK0MBMXRfz2p-wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 45000,
+      "img": "https://th.bing.com/th/id/OIP.OW0m3fC_wIlwWgq2TCoLIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 95000,
       "techniques": [
-        "Final Flash",
-        "Big Bang Attack"
+        "Final Shine Attack",
+        "Gamma Burst Flash"
       ],
       "evolutions": [
         {
@@ -487,54 +487,6 @@
     }
   ],
   "favorites": [
-    {
-      "id": "f87d",
-      "niveau": 0,
-      "nom": "Vegeta",
-      "race": "Saiyan",
-      "alignement": "Neutre",
-      "img": "https://th.bing.com/th/id/OIP.jNG2da_S1UywqE9hku02iQHaQL?w=160&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 9000,
-      "techniques": [
-        "Galick Gun",
-        "Final Flash",
-        "Big Bang Attack"
-      ],
-      "evolutions": [
-        {
-          "niveau": 0,
-          "nom": "Vegeta",
-          "race": "Saiyan",
-          "img": "https://th.bing.com/th/id/OIP.jNG2da_S1UywqE9hku02iQHaQL?w=160&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "puissance": 9000,
-          "techniques": [
-            "Galick Gun",
-            "Final Flash",
-            "Big Bang Attack"
-          ]
-        },
-        {
-          "niveau": 1,
-          "nom": "Super Saiyan",
-          "puissance": 45000,
-          "img": "https://th.bing.com/th/id/OIP.A725zqU_FK0MBMXRfz2p-wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Final Flash",
-            "Big Bang Attack"
-          ]
-        },
-        {
-          "niveau": 2,
-          "nom": "Super Saiyan 2",
-          "puissance": 95000,
-          "img": "https://th.bing.com/th/id/OIP.OW0m3fC_wIlwWgq2TCoLIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-          "techniques": [
-            "Final Shine Attack",
-            "Gamma Burst Flash"
-          ]
-        }
-      ]
-    },
     {
       "id": "e5b1",
       "niveau": 1,
