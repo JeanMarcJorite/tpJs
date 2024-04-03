@@ -3,7 +3,7 @@ export default class Home{
         let view = /*html*/`
             <section class="section">
                 <h1>Home</h1>
-                <p> Welcome to our WEBPAGE</p>
+                <p> Bienvenue sur notre page</p>
             </section>
         `;
         return view;
