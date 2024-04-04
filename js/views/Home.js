@@ -3,6 +3,9 @@ export default class Home {
     
     constructor() {
         window.search = this.search.bind(this);
+        localStorage.setItem('favoris', {});
+        localStorage.setItem('favoris', JSON.stringify({test: 'test'}));
+        console.log("test", JSON.parse(localStorage.getItem('favoris')));
     }
 
     async search() {
@@ -26,7 +29,6 @@ export default class Home {
     displayCharacters(characters) {
         const resultsContainer = document.getElementById('results');
         resultsContainer.innerHTML = ''; 
-    
         characters.forEach(character => {
 
             const listeElement = document.createElement('li');

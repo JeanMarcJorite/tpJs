@@ -1,17 +1,16 @@
 {
   "personnages": [
     {
-      "niveau": 0,
-      "nom": "Son Goku",
+      "niveau": 2,
+      "nom": "Super Saiyan 2",
       "race": "Saiyan",
       "alignement": "Bon",
-      "img": "https://th.bing.com/th/id/OIP.Xt9mk1Zwy7VUxURx7qax1QHaKq?w=202&h=291&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 10000,
+      "img": "https://th.bing.com/th/id/OIP.GQlhlZDgu7JwgQkp6z4bEQAAAA?w=110&h=349&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 100000,
       "note": 3,
       "techniques": [
-        "Kamehameha",
-        "Kaio-Ken",
-        "Genki Dama"
+        "Super Dragon Fist",
+        "Solar Kamehameha"
       ],
       "evolutions": [
         {
