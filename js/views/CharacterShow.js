@@ -8,48 +8,7 @@ export default class CharacterShow {
     async render () {
         let request = Utils.parseRequestURL() 
         let post = await dbzProvider.getCharacter(request.id)
-        
-        window.addFavorite = async () => {
-            await FavoriteCharacter.addFavorite(post);
-        }
-
-        window.augmenterNiveau = async () => {  
-            await Niveau.augmenterNiveau(post, request);
-            if (await FavoriteCharacter.isFavorite(request.id)) {
-                await FavoriteCharacter.updateFavorite(post, request.id);
-            }
-            updateDisplay(post);
-        }
-                
-        window.diminuerNiveau = async () => {
-            await Niveau.diminuerNiveau(post, request);
-            if (await FavoriteCharacter.isFavorite(request.id)) {
-                await FavoriteCharacter.updateFavorite(post, request.id);
-            }
-            updateDisplay(post);
-        }
-
-        window.augmenterNotation = async () => {
-            await Notation.augmenterNotation(post, request);
-            updateDisplay(post);
-        }
-
-        window.diminuerNotation = async () => {
-            await Notation.diminuerNotation(post, request);
-            updateDisplay(post);
-        }
-
-        function updateDisplay(post) {
-            document.querySelector('.section h1').textContent = `${post.nom}`;
-            document.querySelector('.section p:nth-child(2)').textContent = `Race : ${post.race}`;
-            document.querySelector('.section p:nth-child(3)').textContent = `Puissance de combat : ${post.puissance}`;
-            document.querySelector('.section img').src = post.img;
-            document.querySelector('.section img').alt = `image de ${post.nom}`;
-            document.querySelector('#note').textContent = `Note : ${post.note}/5`;
-            document.querySelector('.section ul').innerHTML = post.techniques.map(technique => `<li>${technique}</li>`).join('');
-
-        }
-        
+               
 
         return /*html*/`
             <section class="section">
@@ -114,6 +73,50 @@ export default class CharacterShow {
                 }
             </style>
         `
+    }
+
+    async after_render() {
+        window.addFavorite = async () => {
+            await FavoriteCharacter.addFavorite(post);
+        }
+
+        window.augmenterNiveau = async () => {  
+            await Niveau.augmenterNiveau(post, request);
+            if (await FavoriteCharacter.isFavorite(request.id)) {
+                await FavoriteCharacter.updateFavorite(post, request.id);
+            }
+            updateDisplay(post);
+        }
+                
+        window.diminuerNiveau = async () => {
+            await Niveau.diminuerNiveau(post, request);
+            if (await FavoriteCharacter.isFavorite(request.id)) {
+                await FavoriteCharacter.updateFavorite(post, request.id);
+            }
+            updateDisplay(post);
+        }
+
+        window.augmenterNotation = async () => {
+            await Notation.augmenterNotation(post, request);
+            updateDisplay(post);
+        }
+
+        window.diminuerNotation = async () => {
+            await Notation.diminuerNotation(post, request);
+            updateDisplay(post);
+        }
+
+        function updateDisplay(post) {
+            document.querySelector('.section h1').textContent = `${post.nom}`;
+            document.querySelector('.section p:nth-child(2)').textContent = `Race : ${post.race}`;
+            document.querySelector('.section p:nth-child(3)').textContent = `Puissance de combat : ${post.puissance}`;
+            document.querySelector('.section img').src = post.img;
+            document.querySelector('.section img').alt = `image de ${post.nom}`;
+            document.querySelector('#note').textContent = `Note : ${post.note}/5`;
+            document.querySelector('.section ul').innerHTML = post.techniques.map(technique => `<li>${technique}</li>`).join('');
+
+        }
+
     }
     
 }
