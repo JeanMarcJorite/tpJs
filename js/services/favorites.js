@@ -1,6 +1,7 @@
 import { ENDPOINT2 } from "../config.js";
 
 export class FavoriteCharacter{
+
     static fetchFavorites = async () => {
         return localStorage.getItem('favorites') ? JSON.parse(localStorage.getItem('favorites')) : [];
     }

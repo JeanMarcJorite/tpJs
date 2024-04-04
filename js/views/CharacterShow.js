@@ -59,6 +59,7 @@ export default class CharacterShow {
                 <p> Puissance de combat : ${post.puissance} </p>
                 <img src="${post.img}" alt="image de ${post.nom}">
                 <p id="note" > Note : ${post.note}/5 </p>
+                <p> Côté : ${post.alignement} </p>
                 <h2> Techniques : </h2>
                 <ul>
                     ${post.techniques.map(technique => `<li>${technique}</li>`).join('')}
