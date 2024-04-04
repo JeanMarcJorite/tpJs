@@ -106,16 +106,7 @@ export default class Home {
                 }
 
                 
-.section {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
-.section h1 {
-    font-size: 24px;
-    color: #333;
-}
 
 .section p {
     color: #666;

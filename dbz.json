@@ -63,16 +63,16 @@
       "id": "cba1"
     },
     {
-      "niveau": 1,
-      "nom": "Super Saiyan",
+      "niveau": 2,
+      "nom": "Super Saiyan 2",
       "race": "Saiyan",
       "note": 1,
       "alignement": "Neutre",
-      "img": "https://th.bing.com/th/id/OIP.A725zqU_FK0MBMXRfz2p-wHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 45000,
+      "img": "https://th.bing.com/th/id/OIP.OW0m3fC_wIlwWgq2TCoLIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "puissance": 95000,
       "techniques": [
-        "Final Flash",
-        "Big Bang Attack"
+        "Final Shine Attack",
+        "Gamma Burst Flash"
       ],
       "evolutions": [
         {
@@ -118,6 +118,7 @@
       "nom": "Piccolo",
       "race": "Namek",
       "note": 5,
+      "alignement": "Bon",
       "puissance": 8000,
       "techniques": [
         "Makankosappo",
@@ -330,16 +331,16 @@
       "id": "c3b1"
     },
     {
-      "niveau": 3,
-      "nom": "Freezer forme finale",
+      "niveau": 4,
+      "nom": "Golden Freezer",
       "race": "Frost Demon",
       "note": 5,
       "alignement": "Mauvais",
-      "img": "https://th.bing.com/th/id/OIP.RQetT5L4HnjzfBuxCm7oDQHaJP?w=202&h=253&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-      "puissance": 100000,
+      "img": "https://wallpapercave.com/wp/wp8786015.jpg",
+      "puissance": 50000,
       "techniques": [
-        "Death Ball",
-        "Supernova"
+        "Golden Death Ball",
+        "Golden Supernova"
       ],
       "evolutions": [
         {
@@ -447,7 +448,7 @@
       "nom": "Buu forme pure",
       "race": "Majin",
       "alignement": "Mauvais",
-      "note": 5,
+      "note": 3,
       "img": "https://th.bing.com/th/id/OIP.NJhfkdjO8cjcJ7vBIHRbDgHaJe?w=202&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "puissance": 50000,
       "techniques": [
